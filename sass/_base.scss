@@ -1,0 +1,83 @@
+/*
+COLORS
+
+Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+
+*/
+
+$color-white: #fff;
+$color-grey-light: #f7f7f7;
+
+$color-grey-dark: #9c9c9c;
+$color-grey-dark-2: #414141;
+
+$color-orange: #ce634e;
+
+$color-yellow: #d3c87d;
+
+$color-blue: #717fd3;
+$color-blue-light: #3683c5;
+$color-blue-dark: #3263ff;
+
+$color-red: #f23168;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  // font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: $color-grey-dark;
+
+  background: linear-gradient(to right, #b7b0f4, #f3a5be, #b1daf5, #9cecd3);
+  background-size: cover;
+  min-height: 80vh;
+}
+
+// TYPOGRAPHY
+.heading-secondary {
+  color: $color-grey-dark-2;
+  font-size: 1.6rem;
+}
+
+.heading-tertiary {
+  color: $color-grey-dark-2;
+  font-size: 2rem;
+}
+
+.heading {
+  color: $color-grey-dark-2;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.text-bold {
+  color: $color-grey-dark-2;
+}

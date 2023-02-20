@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="dashboard">
+        <header class="dashboard__header">
+          <h1 class="dashboard__logo-box">
+            <a href="#" class="dashboard__logo">Roec</a>
+          </h1>
+
+          <nav class="dashboard__nav">
+            <ul class="dashboard__nav-list">
+              <li class="dashboard__nav-item">
+                <a
+                  href="#"
+                  class="dashboard__nav-link dashboard__nav-link--active"
+                >
+                  <ion-icon name="home" class="dashboard__nav-icon"></ion-icon>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="dashboard__nav-item">
+                <a href="#" class="dashboard__nav-link">
+                  <ion-icon
+                    name="briefcase-outline"
+                    class="dashboard__nav-icon"
+                  ></ion-icon>
+                  <span>Project</span></a
+                >
+              </li>
+              <li class="dashboard__nav-item">
+                <a href="#" class="dashboard__nav-link">
+                  <ion-icon
+                    name="person-outline"
+                    class="dashboard__nav-icon"
+                  ></ion-icon>
+                  <span>Customer</span></a
+                >
+              </li>
+              <li class="dashboard__nav-item">
+                <a href="#" class="dashboard__nav-link">
+                  <ion-icon
+                    name="chatbox-ellipses-outline"
+                    class="dashboard__nav-icon"
+                  ></ion-icon>
+                  <span>Live Chat</span></a
+                >
+              </li>
+              <li class="dashboard__nav-item">
+                <a href="#" class="dashboard__nav-link">
+                  <ion-icon
+                    name="settings-outline"
+                    class="dashboard__nav-icon"
+                  ></ion-icon>
+                  <span>Setting</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="dashboard__mood-box">
+            <ion-icon name="moon" class="dashboard__mood-box-icon"></ion-icon>
+            <p class="dashboard__mood-setter">Dark Mood</p>
+            <div class="dashboard__mood-switch">
+              <span class="dashboard__mood-switch-button"></span>
+              <span>Off</span>
+            </div>
+          </div>
+
+          <div class="dashboard__plan-box">
+            <p class="dashboard__plan">Upgrade Your Plan &rarr;</p>
+            <figure class="dashboard__plan-customer">
+              <img
+                src="img/customer-4.jpg"
+                alt="Thomas"
+                class="dashboard__plan-customer-img"
+              />
+              <figcaption class="dashboard__plan-customer-name">
+                Thomas
+              </figcaption>
+              <span>&#8285;</span>
+            </figure>
+          </div>
+        </header>
+
+        <div class="dashboard__content">
+          <article class="dashboard__content-task">
+            <div class="dashboard__content-description">
+              <span class="dashboard__content-description-label"> Daily </span>
+
+              <form action="#" class="dashboard__content-description-filter">
+                <select name="period" id="period">
+                  <option value="today" selected>Today</option>
+                  <option value="yesterday">Yesterday</option>
+                  <option value="last-week">Last week</option>
+                </select>
+              </form>
+            </div>
+
+            <div
+              class="dashboard__content-task-box dashboard__content-task-box--1"
+            >
+              <ion-icon
+                name="document-outline"
+                class="dashboard__content-task-icon dashboard__content-task-icon--1"
+              ></ion-icon>
+              <h2 class="heading-secondary dashboard__content-task-heading">
+                Gateway of Pacific
+              </h2>
+              <p class="dashboard__content-task-description">Total articles</p>
+              <div class="dashboard__content-task-activity">
+                <small class="dashboard__content-task-activity--graph">
+                  <ion-icon
+                    name="trending-up-outline"
+                    class="dashboard__content-task-activity-icon"
+                  ></ion-icon>
+                  <span> 0.54%</span>
+                </small>
+                <small class="dashboard__content-task-activity--date"
+                  >15 days ago</small
+                >
+              </div>
+            </div>
+
+            <div
+              class="dashboard__content-task-box dashboard__content-task-box--2"
+            >
+              <ion-icon
+                name="stats-chart"
+                class="dashboard__content-task-icon dashboard__content-task-icon--2"
+              ></ion-icon>
+              <h2 class="heading-secondary dashboard__content-task-heading">
+                Renoir Hotel Fire
+              </h2>
+              <p class="dashboard__content-task-description">Bring Documents</p>
+              <div class="dashboard__content-task-activity">
+                <small class="dashboard__content-task-activity--graph">
+                  <ion-icon
+                    name="trending-up-outline"
+                    class="dashboard__content-task-activity-icon"
+                  ></ion-icon>
+                  <span> 0.24%</span>
+                </small>
+                <small class="dashboard__content-task-activity--date"
+                  >Due in 5 days</small
+                >
+              </div>
+            </div>
+
+            <div
+              class="dashboard__content-task-box dashboard__content-task-box--3"
+            >
+              <ion-icon
+                name="leaf"
+                class="dashboard__content-task-icon dashboard__content-task-icon--3"
+              ></ion-icon>
+              <h2 class="heading-secondary dashboard__content-task-heading">
+                Wexler-McGill Office
+              </h2>
+              <p class="dashboard__content-task-description">Total articles</p>
+              <div class="dashboard__content-task-activity">
+                <small class="dashboard__content-task-activity--graph">
+                  <ion-icon
+                    name="trending-up-outline"
+                    class="dashboard__content-task-activity-icon"
+                  ></ion-icon>
+                  <span> 0.54%</span>
+                </small>
+                <small class="dashboard__content-task-activity--date"
+                  >15 days ago</small
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="dashboard__content-project">
+            <div class="dashboard__content-project-box">
+              <div class="dashboard__content-description">
+                <span class="dashboard__content-description-label">
+                  Recent Projects
+                </span>
+
+                <ion-icon
+                  name="open-outline"
+                  class="dashboard__content-description-icon"
+                  >></ion-icon
+                >
+              </div>
+              <h2 class="heading-secondary dashboard__content-project-heading">
+                LFR - Lakefront Residences
+              </h2>
+              <small>Agreement</small>
+              <figure class="dashboard__content-project-img-box">
+                <img
+                  src="/img/user-1.jpg"
+                  alt="User 1"
+                  class="dashboard__content-project-img"
+                />
+                <img
+                  src="/img/user-2.jpg"
+                  alt="User 2"
+                  class="dashboard__content-project-img"
+                />
+                <img
+                  src="/img/user-3.jpg"
+                  alt="User 3"
+                  class="dashboard__content-project-img"
+                />
+                <img
+                  src="/img/user-4.jpg"
+                  alt="User 4"
+                  class="dashboard__content-project-img"
+                />
+
+                <figcaption class="dashboard__content-project-stats">
+                  <small>+6</small>
+                  <small>
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <span>Next 7 days</span>
+                  </small>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="dashboard__content-project-task">
+              <p>
+                <ion-icon name="add-outline"></ion-icon>
+                <span>Add task</span>
+              </p>
+            </div>
+          </article>
+
+          <article class="dashboard__content-statistics">
+            <div class="dashboard__content-description">
+              <span class="dashboard__content-description-label">
+                Statistics
+              </span>
+
+              <form action="#" class="dashboard__content-description-filter">
+                <div class="dashboard__content-description-filter-group">
+                  <select name="period" id="period">
+                    <option value="today" selected>Project Overview</option>
+                    <option value="yesterday">Yesterday</option>
+                    <option value="last-week">Last week</option>
+                  </select>
+                </div>
+
+                <div class="dashboard__content-description-filter-group">
+                  <select name="period" id="select">
+                    <option value="today" selected>Last Years</option>
+                    <option value="yesterday">Yesterday</option>
+                    <option value="last-week">Last week</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+
+            <h2 class="heading-secondary dashboard__content-statistics-heading">
+              Project Overview
+            </h2>
+
+            <small>Saint Vincent and the Grenadines</small>
+
+            <div class="dashboard__content-statistics-data-box">
+              <strong class="text-bold">207,388</strong>
+              <div class="dashboard__content-statistics-data-point">
+                <p class="dashboard__content-statistics-data-point--1">
+                  <span>Single</span>
+                  <strong class="text-bold">89</strong>
+                </p>
+                <p class="dashboard__content-statistics-data-point--2">
+                  <span>Team</span>
+                  <strong class="text-bold">150</strong>
+                </p>
+              </div>
+            </div>
+
+            <div class="dashboard__content-statistics-graph-box">
+              <div class="dashboard__content-statistics-graph">
+                <div
+                  class="dashboard__content-statistics-graph-content dashboard__content-statistics-graph-content--1"
+                >
+                  <p>McDonald's</p>
+                  <span></span>
+                  <small>56.635</small>
+                </div>
+
+                <div
+                  class="dashboard__content-statistics-graph-content dashboard__content-statistics-graph-content--2"
+                >
+                  <p>Starbucks</p>
+                  <span></span>
+                  <small>74,779</small>
+                </div>
+
+                <div
+                  class="dashboard__content-statistics-graph-content dashboard__content-statistics-graph-content--3"
+                >
+                  <p>eBay</p>
+                  <span></span>
+                  <small>19,027</small>
+                </div>
+                <div
+                  class="dashboard__content-statistics-graph-content dashboard__content-statistics-graph-content--4"
+                >
+                  <p>L'Ordeal</p>
+                  <span></span>
+                  <small>43,887</small>
+                </div>
+                <div
+                  class="dashboard__content-statistics-graph-content dashboard__content-statistics-graph-content--5"
+                >
+                  <p>Apple</p>
+                  <span></span>
+                  <small>8,143</small>
+                </div>
+              </div>
+
+              <div class="dashboard__content-statistics-stock-box">
+                <div class="dashboard__content-statistics-stock">
+                  <ion-icon
+                    name="logo-bitcoin"
+                    class="dashboard__content-statistics-stock-icon dashboard__content-statistics-stock-icon--1"
+                  ></ion-icon>
+                  <div class="dashboard__content-statistics-stock-stats-box">
+                    <p class="dashboard__content-statistics-stock-stats--1">
+                      <span>8412</span>
+                      <small>ux</small>
+                    </p>
+                    <p class="dashboard__content-statistics-stock-stats--2">
+                      <ion-icon name="trending-down-outline"></ion-icon>
+                      <span>-5.23%</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="dashboard__content-statistics-stock">
+                  <ion-icon
+                    name="logo-stencil"
+                    class="dashboard__content-statistics-stock-icon dashboard__content-statistics-stock-icon--2"
+                  ></ion-icon>
+                  <div class="dashboard__content-statistics-stock-stats-box">
+                    <p class="dashboard__content-statistics-stock-stats--1">
+                      <span>2354</span>
+                      <small>ui</small>
+                    </p>
+                    <p
+                      class="dashboard__content-statistics-stock-stats--2 dashboard__content-statistics-stock-stats--2-blue"
+                    >
+                      <ion-icon name="trending-up-outline"></ion-icon>
+                      <span>-39.08%</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="dashboard__sidebar">
+          <form action="#" class="dashboard__form">
+            <div class="dashboard__form-group">
+              <span
+                ><ion-icon
+                  name="search-outline"
+                  class="dashboard__form-icon--1"
+                ></ion-icon
+              ></span>
+              <input
+                type="search"
+                name=""
+                id=""
+                class="dashboard__form-input"
+                placeholder="Search here..."
+              />
+            </div>
+            <span
+              ><ion-icon
+                name="notifications-outline"
+                class="dashboard__form-icon--2"
+              ></ion-icon
+            ></span>
+          </form>
+
+          <figure class="dashboard__sidebar-profile">
+            <div class="dashboard__sidebar-profile-img-box">
+              <img
+                src="img/customer-4.jpg"
+                alt="Thomas"
+                class="dashboard__sidebar-profile-img"
+              />
+            </div>
+            <figcaption class="dashboard__sidebar-user">
+              <h3 class="heading-tertiary">Thomas Alva</h3>
+              <p class="dashboard__sidebar-user-position">Marketing officer</p>
+            </figcaption>
+          </figure>
+
+          <div class="dashboard__stats">
+            <div class="dashboard__stats-list">
+              <p class="dashboard__stats--score">255</p>
+              <p class="dashboard__stats--category">Projects</p>
+            </div>
+
+            <div class="dashboard__stats-list">
+              <p class="dashboard__stats--score">85</p>
+              <p class="dashboard__stats--category">Completed</p>
+            </div>
+
+            <div class="dashboard__stats-list">
+              <p class="dashboard__stats--score">25</p>
+              <p class="dashboard__stats--category">Awards</p>
+            </div>
+          </div>
+
+          <div class="dashboard__project-box">
+            <div class="dashboard__project">
+              <p class="dashboard__project-type">Offer</p>
+              <span>&#8285;</span>
+            </div>
+            <p class="dashboard__project-name">Template - CTC105</p>
+            <p class="dashboard__project-duration">02/08/2021 - 20/09/2021</p>
+            <a href="#" class="btn btn--project">View project</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
